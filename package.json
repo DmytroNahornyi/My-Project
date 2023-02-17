@@ -1,11 +1,11 @@
 {
-  "name": "goIt-news-team-project",
+  "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://KovalenkoMaks.github.io/goIt-news-team-project",
+  "homepage": "https://goitacademy.github.io/parcel-project-template",
   "scripts": {
-    "start": "parcel src/*.html --open",
-    "build": "parcel build src/*.html --public-url /goIt-news-team-project/"
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /parcel-project-template/"
   },
   "repository": {
     "type": "git",
@@ -18,19 +18,13 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
-    "body-scroll-lock": "^4.0.0-beta.0",
-    "flatpickr": "^4.6.13",
-    "lodash.debounce": "^4.0.8",
-    "lodash.uniq": "^4.5.0",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
-    "date-fns": "^2.29.3",
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
-    "posthtml-include": "^1.7.4",
-    "sweetalert": "^2.1.2"
+    "posthtml-include": "^1.7.4"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }
